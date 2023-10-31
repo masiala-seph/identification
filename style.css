@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}a{
+    display: inline-block;
+    transition: 0.5s ease;
+}
+p{
+    margin: 0;
+}
+.error{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.background{
+    background-image: url(image.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 10; */
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    padding-right: 20px;
+    position: relative;
+}
+header ul li a{
+    text-decoration: none;
+}
+.active{
+    color: red;
+}
+.logo{
+    padding-left: 50px;
+}
+.logo span{
+    color: red;
+}
+.get{
+    background-color: red;
+    height: 20px;
+    text-decoration: none;
+    margin-right: 50px;
+    border-radius: 2px;
+    padding: 2px 20px;
+    color: white;
+}
+.digital{
+    margin: 100px 50px;
+}
+.digital {
+    color: white;
+}
+.better{
+    font-size: 30px;
+}
+.team{
+    margin-top: 10px;
+}
+.getstarted{
+    background-color: red;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2px 20px;
+    margin-top: 20px;
+}
+.contactback{
+    background-color: red;
+    height: 2px;
+    width: 35px;
+}
+h3{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Magnam {
+    text-align: center;
+    margin-top: 15px;
+}
+.forme{
+    background-color: white;
+    height: 280px;
+    width: 30%;
+}
+.action{
+    margin-left: 20px;
+    background-color: rgb(253, 253, 253);
+    height: 280px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+    width: 30%;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+.localisation{
+    background-color: rgb(253, 253, 253);
+    height: 120px;
+    width: 100%;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize; 
+}
+.img{
+    margin: 10px 0;
+}
+.localisation p{
+    margin: 3px 0 3px;
+}
+.ourAdress{
+    text-align: center;
+    font-weight: bold;
+}
+.mail{
+    background-color: rgb(255, 255, 253);
+    height: 145px;
+    width: 49%;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.mail p{
+    margin: 5px 0 10px;
+}
+.emailus{
+    font-weight: bold;
+}
+.callus{
+    background-color: rgb(255, 255, 255);
+    height: 145px;
+    width: 49%;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, .5);
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.callus p{
+    margin: 5px 0 10px;
+}
+.calling{
+    display: flex;
+}
+.dropdown-menu{
+    display: none;
+}
+.dropdown-menu{
+    display: block;
+    background-color: black;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+ul li .drop-down{
+    display: none;
+}
+.dropdown-menu ul {
+    display: block;
+}
+.dropdown-menu ul li{
+    width:100px ;
+    padding: 10px;
+} 
+.formulary{
+    display: flex;
+}
+.formulary input{
+    margin: 20px 25px;
+    padding: 7px  5px;
+    border-radius: 2px;
+    outline: none;
+}
+textarea{
+    width: 90%;
+    height: 80px;
+    margin: 15px 10px; 
+    padding: 10px;
+}
+#send{
+    background-color: red;
+    width: 35%;
+    padding: 5px 0;
+    border-radius: 2px;
+    margin: 5px 150px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white ;
+    cursor: pointer;
+}
+#result{
+    display: flex;
+    flex-wrap: wrap;   
+
+}
+.resulat{
+    background-color: rgb(37, 37, 37);
+    width: 400px;
+    height: 100px;
+    margin: 20px 53px;
+    box-shadow:  0 0 3px rgb(18, 18, 18); 
+    position: relative;
+}
+.nompostnom{
+    display: flex;
+    margin: 10px;
+    color: white;
+}.yourfist-name{
+    margin-left: 10px;
+}
+.container-nompostnom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.description{
+    margin: 10px;
+    color: white;
+}
+.picture{
+    display: flex;
+    margin-left: 10px;
+}
+#result-background{
+    background-color: rgb(27, 27, 27);
+    height: 100%;
+    width: 100%;
+}
+
+.deleteEl{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    cursor: pointer;
+}
